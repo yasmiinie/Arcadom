@@ -15,13 +15,16 @@ p{
 *::before{
     box-sizing: border-box;
 }
+body{
+    background: var(--darkBlue-color);
 
+}
 .wrapper{
     max-width: 1271px;
     margin :0 auto;
 }
 header{
-    background: var(--darkBlue-color);
+   
     height: 100vh;
     width: 100%;
 }
@@ -31,9 +34,12 @@ nav{
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    width: 1276px;
-    top: 46px;
+    width: 1440px;
     z-index: 100;
+    background-color: var(--darkBlue-color);
+    box-shadow: 0px 2px 4px rgba(165, 156, 200, 0.5);
+    padding: 37px 0 ;
+
 }
 
 nav ul{
@@ -42,6 +48,8 @@ nav ul{
     gap: 32px; /* space between each element */
     list-style: none;
     margin: 0;
+
+
 }
 
 nav ul li a{
@@ -86,6 +94,7 @@ nav .button{
     color: #FFFFFF;
     font-family: 'DEBUG FREE TRIAL',sans-serif;
     margin-top: 140px;
+    width: 563px;
 }
 
 .hero-section .left p{
@@ -109,10 +118,72 @@ nav .button{
     padding-left: 14px;
 }
 */
-.about-section
-{color: #0ABEFF;
-    font-family: 'Swansea',sans-serif;
+.about-section{
+   margin-top: 477px;
+    display: flex;
+    padding-left: 52px;
+    gap: 69px;
 }
-h2{
-    font-family: sans-serif;
+
+
+.about-section .left h2
+{
+    font-family: 'DEBUG FREE TRIAL',sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 90px;
+    text-align: center;
+    margin: 0;
+    color:#FFFFFF;
+}
+.about-section p{
+    font-family: 'Swansea',sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    padding-left: 17px;
+    color:#FFFFFF;
+}
+
+.agenda-section{
+     margin-top: 400px;
+ }
+
+.agenda-section h2{
+    font-family: 'DEBUG FREE TRIAL',sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 90px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.agenda-section h5{
+    font-family: 'DEBUG FREE TRIAL',sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 54px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.agenda-section p{
+    font-family: 'Swansea',sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 10px;
+    text-align: center;
+    color: var(--pink-color);
+}
+
+.agenda-section .days{
+    gap:171px;
+    display: flex;
+
+}
+
+.about-section .right{
+    background:#171330;;
+    border-radius: 24px;
 }

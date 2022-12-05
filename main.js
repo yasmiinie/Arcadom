@@ -36,18 +36,6 @@ height: 109.99px;
 
 
 
-.hero-section{
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.hero-section .left h2{
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 54px;
-    color: #FFFFFF;
-    font-family: 'DEBUG FREE TRIAL',sans-serif;
-}*/
+
+*/
